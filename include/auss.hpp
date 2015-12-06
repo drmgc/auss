@@ -38,7 +38,9 @@ private:
 	std::stringstream  m_stream;
 };
 
+#ifndef AUSS_CUSTOM_TYPEDEF
 typedef AutoStringStream auss_t;
+#endif
 
 #ifdef AUSS_USE_OWN_NAMESPACE
 }
